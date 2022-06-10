@@ -16,7 +16,9 @@ Phone: +375447445066
 * HTML
 * CSS
 * JavaScript
-* SQL
+
+### English level
+English level is B1-B2
 
 #### Foreign languges:
 
@@ -62,6 +64,3 @@ Moreover i have such beneficial for continuous professional progress personality
 ### Education
 HTML, CSS, JavaScript courses on [Code Basics](https://ru.code-basics.com/languages/)
 SQL courses on [Stepik](https://stepik.org)
-
-### English level
-English level is B1-B2.
