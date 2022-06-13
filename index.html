@@ -33,27 +33,59 @@
             </nav>
         </header>
         <main class="main">
-            <section class="about-me" id="about-me"></section>
-            <section class="edu" id="edu"></section>
+            <section class="about-me" id="about-me">
+                <h2>About me</h2>
+                <p>blabalbla</p>
+            </section>
+            <section class="edu" id="edu">
+                <h2>Education</h2>
+                <h3>Courses</h3>
+                <ul>
+                    <li><a href="https://ru.code-basics.com/languages/html">HTML for beginners from Hexlet</a></li>
+                    <li><a href="https://ru.code-basics.com/languages/css">CSS for beginners from Hexlet</a></li>
+                    <li><a href="https://ru.code-basics.com/languages/javascript">JavaScript for beginners from Hexlet</a></li>
+                </ul>
+                <h3>Higher education</h3>
+                <p>BELARUSIAN STATE PEDAGOGICAL UNIVERSITY NAMED AFTER MAXIM TANK<br>Faculty of Psychology</p>
+            </section>
             <section class="contacts" id="contacts">
+                <h2>Contacts</h2>
                 <ul class="contacts-list">
                     <li class="contacts-item">Phone: <a href="tel:+375447445066">+375447445066</a></li>
                     <li class="contacts-item">Email: <a href="mailto:nadtochayeva.anastasiya@gmail.com">nadtochayeva.anastasiya@gmail.com</a></li>
-                    <li class="contacts-item"><a href="https://github.com/Nasta21">Nadtochayeva Anastasiya on Github</a></li>
+                    <li class="contacts-item">Nadtochayeva Anastasiya<a href="https://github.com/Nasta21"> on Github</a></li>
                     <li class="contacts-item">Discord Anastasiya#2927</li>
                 </ul>
             </section>
             <section class="skills" id="skills">
+                <h2>Skills</h2>
                 <ul class="skills-list">
-                    <li class="skills-item"></li>
-                    <li class="skills-item"></li>
-                    <li class="skills-item"></li>
-                    <li class="skills-item"></li>
+                    <li class="skills-item">HTML</li>
+                    <li class="skills-item">CSS (in progress)</li>
+                    <li class="skills-item">JavaScript (in progress)</li>
+                    <li class="skills-item">SQL (in progress)</li>
                 </ul>
             </section>
-            <section class="english" id="english"></section>
-            <section class="code" id="code"></section>
+            <section class="english" id="english">
+                <h2>English</h2>
+                <p>English level B1 - Pre-Intermediate</p>
+            </section>
+            <section class="code" id="code">
+                <h2>Code example</h2>
+                <pre>
+                    function sumDigits(number) {
+                    let arr = Array.from((Math.abs(number)).toString(), Number);
+                    let sum = 0;
+                        arr.forEach(function(item){
+                  sum += item;
+                        }
+                      )
+                      return sum;
+                  }
+                </pre>
+            </section>
             <section class="projects" id="projects">
+                <h2>Projects</h2>
                 <ul class="projects-list">
                     <li><a href="https://nasta21.github.io/rsschool-cv/cv">CV (Markdown)</a></li>
                     <li><a href="https://nasta21.github.io/rsschool-cv/">CV (HTML)</a></li>
