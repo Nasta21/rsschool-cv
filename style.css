@@ -6,7 +6,7 @@ body {
   justify-content: space-between;
 }
 .portrait {
-width: 150px;
+width: 150;
 }
 .header {
   display: flex;
