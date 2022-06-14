@@ -1,0 +1,44 @@
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.portrait {
+width: 150;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: bisque;
+}
+.person {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav {
+  width: 50%;
+  align-items: center;
+  padding-right: 5px;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+.nav-item {
+  list-style-type: none;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.footer {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
